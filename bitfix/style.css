@@ -644,6 +644,7 @@ img {
   position:fixed;
   opacity:0;
   visibility:hidden;
+  display:none;
   left:0px;
   top:0px;
   width:100%;
