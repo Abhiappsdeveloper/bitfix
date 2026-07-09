@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?tin97q');
-  src:  url('../fonts/icomoon.eot?tin97q#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?tin97q') format('truetype'),
-    url('../fonts/icomoon.woff?tin97q') format('woff'),
-    url('../fonts/icomoon.svg?tin97q#icomoon') format('svg');
+  src:  url('https://azim.hostlin.com/Bitfix/assets/fonts/icomoon.eot?tin97q');
+  src:  url('https://azim.hostlin.com/Bitfix/assets/fonts/icomoon.eot?tin97q#iefix') format('embedded-opentype'),
+    url('https://azim.hostlin.com/Bitfix/assets/fonts/icomoon.ttf?tin97q') format('truetype'),
+    url('https://azim.hostlin.com/Bitfix/assets/fonts/icomoon.woff?tin97q') format('woff'),
+    url('https://azim.hostlin.com/Bitfix/assets/fonts/icomoon.svg?tin97q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,36 +28,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border-radius: 2px;
-  margin-right: 6px;
-  vertical-align: middle;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-}
-
-.icon-1:before { content: "📅"; background-color: transparent; }
-.icon-2:before { content: "✉"; background-color: transparent; }
-.icon-3:before { content: "f"; background-color: transparent; }
-.icon-4:before { content: "𝕱"; background-color: transparent; }
-.icon-5:before { content: "📷"; background-color: transparent; }
-.icon-6:before { content: "▶"; background-color: transparent; }
-.icon-7:before { content: "→"; background-color: transparent; }
-.icon-8:before { content: "✓"; background-color: transparent; }
-.icon-9:before { content: "◆"; background-color: transparent; }
-.icon-10:before { content: "▶"; background-color: transparent; }
-.icon-11:before { content: "✦"; background-color: transparent; }
-.icon-12:before { content: "◉"; background-color: transparent; }
-.icon-13:before { content: "◈"; background-color: transparent; }
-.icon-14:before { content: "◊"; background-color: transparent; }
-.icon-15:before { content: "✤"; background-color: transparent; }
-.icon-16:before { content: "◈"; background-color: transparent; }
-.icon-24:before { content: "🔍"; background-color: transparent; }
 
 .icon-1:before {
   content: "\e900";
