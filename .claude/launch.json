@@ -1,11 +1,16 @@
-{
-  "version": "0.0.1",
-  "configurations": [
-    {
-      "name": "bitfix-server",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8000", "--directory", "C:\\Users\\NS\\Documents\\ABHIJEET\\hi\\bitfix"],
-      "port": 8000
-    }
-  ]
+﻿{
+    "version":  "0.0.1",
+    "configurations":  [
+                           {
+                               "port":  8000,
+                               "runtimeExecutable":  "python",
+                               "name":  "BitFix Server",
+                               "cwd":  "C:\\Users\\NS\\Documents\\ABHIJEET\\hi\\bitfix",
+                               "runtimeArgs":  [
+                                                   "-m",
+                                                   "http.server",
+                                                   "8000"
+                                               ]
+                           }
+                       ]
 }
