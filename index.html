@@ -13,6 +13,7 @@
 <!-- Stylesheets -->
 <link href="./bitfix/font-awesome-all.css" rel="stylesheet">
 <link href="./bitfix/flaticon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link href="./bitfix/owl.css" rel="stylesheet">
 <link href="./bitfix/bootstrap.css" rel="stylesheet">
 <link href="./bitfix/jquery.fancybox.min.css" rel="stylesheet">
@@ -22,6 +23,34 @@
 <link href="./bitfix/elpath.css" rel="stylesheet">
 <link href="./bitfix/style.css" rel="stylesheet">
 <link href="./bitfix/responsive.css" rel="stylesheet">
+
+<style>
+/* Fix for icon fonts loading */
+@font-face {
+  font-family: 'icomoon';
+  src: url('./bitfix/assets/fonts/icomoon.eot?tin97q');
+  src: url('./bitfix/assets/fonts/icomoon.eot?tin97q#iefix') format('embedded-opentype'),
+    url('./bitfix/assets/fonts/icomoon.ttf?tin97q') format('truetype'),
+    url('./bitfix/assets/fonts/icomoon.woff?tin97q') format('woff'),
+    url('./bitfix/assets/fonts/icomoon.svg?tin97q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
 
 </head>
 
