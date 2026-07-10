@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukonnect Staffing Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .logo-name {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #0052CC 0%, #00A4EF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 0;
+        }
+        .logo-tagline {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #666;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <div class="logo-icon">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background circle -->
+                <circle cx="30" cy="30" r="28" fill="#F0F7FF" stroke="#0052CC" stroke-width="1.5"/>
+
+                <!-- Connected nodes representing people/network -->
+                <g>
+                    <!-- Top left node -->
+                    <circle cx="16" cy="16" r="5.5" fill="#00A4EF"/>
+
+                    <!-- Top right node -->
+                    <circle cx="44" cy="16" r="5.5" fill="#0052CC"/>
+
+                    <!-- Bottom center node -->
+                    <circle cx="30" cy="44" r="5.5" fill="#0078D4"/>
+
+                    <!-- Connection lines -->
+                    <line x1="20" y1="19" x2="40" y2="19" stroke="#00A4EF" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="16" y1="22" x2="30" y2="40" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="44" y1="22" x2="30" y2="40" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+                </g>
+            </svg>
+        </div>
+        <div class="logo-text">
+            <h1 class="logo-name">Ukonnect</h1>
+            <p class="logo-tagline">Staffing Solutions</p>
+        </div>
+    </div>
+</body>
+</html>
